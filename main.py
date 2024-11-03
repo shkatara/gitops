@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def main():
-    model = {"title": "Hello From ArgoCD and this is listening on port 80."}
+    model = {"title": "Hello From ArgoCD and this is listening on port 80 and the sync policy is now automatic."}
     return render_template('index.html', model=model)
 
 
